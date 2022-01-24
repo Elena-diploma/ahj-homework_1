@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6fc06041-bcf3-4c7d-93f1-d303486efe3c" name="Changes" comment="ДЗ">
+    <list default="true" id="6fc06041-bcf3-4c7d-93f1-d303486efe3c" name="Changes" comment="Добавлен lint">
+      <change beforePath="$PROJECT_DIR$/.appveyor.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.appveyor.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack.prod.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack.prod.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -49,7 +48,7 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="npm.build">
+  <component name="RunManager" selected="npm.test">
     <configuration name="build" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
@@ -82,9 +81,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="npm.test" />
         <item itemvalue="npm.build" />
         <item itemvalue="npm.start" />
-        <item itemvalue="npm.test" />
       </list>
     </recent_temporary>
   </component>
@@ -96,7 +95,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1642695199338</updated>
-      <workItem from="1642695208846" duration="29422000" />
+      <workItem from="1642695208846" duration="30539000" />
     </task>
     <task id="LOCAL-00001" summary="тест">
       <created>1643028967528</created>
@@ -126,7 +125,21 @@
       <option name="project" value="LOCAL" />
       <updated>1643053042054</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Корректировка сборки проекта">
+      <created>1643055111203</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1643055111203</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Добавлен lint">
+      <created>1643055750037</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1643055750037</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -147,7 +160,9 @@
     <MESSAGE value="тест" />
     <MESSAGE value="appveyor" />
     <MESSAGE value="ДЗ" />
-    <option name="LAST_COMMIT_MESSAGE" value="ДЗ" />
+    <MESSAGE value="Корректировка сборки проекта" />
+    <MESSAGE value="Добавлен lint" />
+    <option name="LAST_COMMIT_MESSAGE" value="Добавлен lint" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
