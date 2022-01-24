@@ -7,14 +7,14 @@ module.exports = {
     target: 'web',
     devtool: 'inline-source-map',
     output: {
-        path: path.resolve(__dirname, '../dist'),
+        path: path.resolve(__dirname, 'dist'),
     },
     devServer: {
         historyApiFallback: true,
         open: true,
         compress: true,
         static: {
-            directory: path.resolve(__dirname, '../dist'),
+            directory: path.resolve(__dirname, 'dist'),
         }
     },
     module: {
@@ -37,14 +37,18 @@ module.exports = {
             {
                 test: /\.css$/,
                 use: [
-                    MiniCssExtractPlugin.loader, 'css-loader',
+                    MiniCssExtractPlugin.loader, 'css-loader'
                 ],
             },
+          {
+            test: /\.svg$/,
+            type: 'asset/resource',
+          },
         ],
     },
     plugins: [
         new HtmlWebPackPlugin({
-            template: './index.html',
+            template: './src/index.html',
             filename: './index.html',
         }),
         new MiniCssExtractPlugin({
